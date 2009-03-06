@@ -8,7 +8,7 @@ Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/p/python-gnutls/%{name}-%{version}.tar.gz
 # Source0-md5:	a9032d65b338573291ef3a9be664c887
 URL:		http://pypi.python.org/pypi/python-gnutls/
-BuildRequires:	gnutls-devel
+BuildRequires:	gnutls-devel >= 2.4.1
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
