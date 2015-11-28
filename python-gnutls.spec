@@ -3,7 +3,7 @@ Summary:	Python wrapper for the GNUTLS library
 Summary(pl.UTF-8):	Pythonowy interfejs do biblioteki GNUTLS
 Name:		python-%{module}
 Version:	2.0.1
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Development/Languages/Python
 Source0:	https://pypi.python.org/packages/source/p/python-gnutls/%{name}-%{version}.tar.gz
