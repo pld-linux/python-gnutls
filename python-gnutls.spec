@@ -12,7 +12,7 @@ URL:		https://pypi.python.org/pypi/python-gnutls/
 BuildRequires:	gnutls-devel >= 3.1.4
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	gnutls >= 3.1.4
 Requires:	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
