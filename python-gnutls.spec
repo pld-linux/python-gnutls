@@ -6,14 +6,14 @@ Version:	3.1.2
 Release:	1
 License:	LGPL v2+
 Group:		Development/Languages/Python
-#Source0Download: https://pypi.python.org/simple/python-gnutls/
+#Source0Download: https://pypi.org/simple/python-gnutls/
 Source0:	https://files.pythonhosted.org/packages/source/p/python-gnutls/%{name}-%{version}.tar.gz
 # Source0-md5:	ee71ddd04b2c01fbe99ae3b02739cddf
-URL:		https://pypi.python.org/pypi/python-gnutls/
+URL:		https://pypi.org/project/python-gnutls/
 BuildRequires:	gnutls-devel >= 3.2.0
 BuildRequires:	python-devel >= 1:2.7
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.710
+BuildRequires:	rpmbuild(macros) >= 1.714
 Requires:	gnutls >= 3.2.0
 Requires:	python-modules >= 1:2.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -42,6 +42,7 @@ i udostępnia je aplikacjom Pythona poprzez proste API.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %py_install
 
 %py_postclean
